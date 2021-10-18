@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+
+#Container {
+    /* border: solid black; */
+    height: 1000px;
+    margin: 0 auto;
+    background-color: #1e90ff;
+
+}
+
+
+.Header {
+    margin: 10px 60px 10px 60px; 
+
+    padding: 10px;
+    color: white;
+    background-color: deeppink;
+    border-radius: 10px;
+}
+
+.feed {
+    /* border: solid blue; */
+    text-align: center;
+    font-size: large;
+    font-family: sans-serif;
+    
+}
+
+.row {
+    border: solid black;
+    margin: 50px;
+    height: 800px; 
+}
+
+.col-1 {
+    /* border: solid red; */
+    float:left;
+    margin: 50px;
+    height: 400px;
+    width: 30%
+    
+}
+
+.avatarbox {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.AddAvatar {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+} 
+
+.Name {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.col-2 {
+    /* border: solid blue; */
+    float:right;
+    margin: 20px;
+    height: 750px;
+    width: 50%
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #999;
+    font-size: 1.2rem;
+}
+.userName {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px
+}
+
+.like-btn{
+    background-color: deeppink;
+    padding: 5px 10px;
+    border-radius: 5px 10px;
+    box-shadow: 4px 4px #000;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+
